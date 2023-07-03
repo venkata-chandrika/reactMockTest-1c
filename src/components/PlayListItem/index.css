@@ -1,0 +1,37 @@
+.list-items {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.imgitem-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img {
+  height: 100px;
+  margin-right: 20px;
+}
+.name {
+  color: #ffffff;
+}
+.genre {
+  color: #3b82f6;
+}
+.duration {
+  text-align: end;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.btn-container {
+  display: flex;
+  align-self: center;
+}
+.btn {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  align-self: center;
+}
